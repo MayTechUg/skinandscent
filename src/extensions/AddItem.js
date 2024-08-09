@@ -44,7 +44,7 @@ const AddItem = ({ addItem, editingItem, updateItem }) => {
     formData.append('priceTwo', priceTwo);
 
     try {
-      const response = await fetch('https://skinandscent-server.onrender.com/upload', {
+      const response = await fetch('https://skinandscent-server-1.onrender.com/upload', {
         method: 'POST',
         body: formData,
       });

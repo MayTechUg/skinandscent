@@ -14,7 +14,7 @@ const Crud = () => {
 
   const fetchItems = async () => {
     try {
-      const response = await fetch('https://skinandscent-server.onrender.com/list');
+      const response = await fetch('https://skinandscent-server-1.onrender.com/list');
       const data = await response.json();
       console.log('Fetched items:', data);
       setItems(data);
@@ -25,7 +25,7 @@ const Crud = () => {
 
   const addItem = async (item) => {
     try {
-      await fetch('https://skinandscent-server.onrender.com/upload', {
+      await fetch('https://skinandscent-server-1.onrender.com/upload', {
         method: 'POST',
         body: item,
         headers: { 'Content-Type': 'multipart/form-data' }
@@ -38,7 +38,7 @@ const Crud = () => {
 
   const updateItem = async (updatedItem) => {
     try {
-      await fetch('https://skinandscent-server.onrender.com/update', {
+      await fetch('https://skinandscent-server-1.onrender.com/update', {
         method: 'POST',
         body: JSON.stringify(updatedItem),
         headers: { 'Content-Type': 'application/json' }
@@ -53,7 +53,7 @@ const Crud = () => {
   const deleteItem = async (id) => {
     setLoading(true);
     try {
-      await fetch('https://skinandscent-server.onrender.com/delete', {
+      await fetch('https://skinandscent-server-1.onrender.com/delete', {
         method: 'POST',
         body: JSON.stringify({ fileId: id }),
         headers: { 'Content-Type': 'application/json' }

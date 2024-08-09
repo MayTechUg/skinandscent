@@ -40,7 +40,7 @@ function App() {
         const fetchData = async () => {
             setLoading(true);
             try {
-                const response = await axios.get('https://skinandscent-server.onrender.com/list');
+                const response = await axios.get('https://skinandscent-server-1.onrender.com/list');
                 setItems(response.data);
             } catch (error) {
                 console.error('Error fetching data:', error);
