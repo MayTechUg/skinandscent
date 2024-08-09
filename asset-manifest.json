@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/skinandscent/static/css/main.b5ffd318.css",
-    "main.js": "/skinandscent/static/js/main.df90608a.js",
+    "main.js": "/skinandscent/static/js/main.8eb4444e.js",
     "static/media/portrait-gorgeous-woman-applying-eyeshadow-with-make-up-brush.jpg": "/skinandscent/static/media/portrait-gorgeous-woman-applying-eyeshadow-with-make-up-brush.27a1e0bf8c80467b19c0.jpg",
     "static/media/various-cosmetics-types-scattered-beige-table.jpg": "/skinandscent/static/media/various-cosmetics-types-scattered-beige-table.01a66d85558aabc0e9b7.jpg",
     "static/media/natural-elements-spa-with-beauty-cream.jpg": "/skinandscent/static/media/natural-elements-spa-with-beauty-cream.4f61b52ac1fb416af32a.jpg",
@@ -23,10 +23,10 @@
     "static/media/woman-with-golden-eyes-golden-makeup_759095-30245.jpg": "/skinandscent/static/media/woman-with-golden-eyes-golden-makeup_759095-30245.94e5bc091c5fd740e240.jpg",
     "index.html": "/skinandscent/index.html",
     "main.b5ffd318.css.map": "/skinandscent/static/css/main.b5ffd318.css.map",
-    "main.df90608a.js.map": "/skinandscent/static/js/main.df90608a.js.map"
+    "main.8eb4444e.js.map": "/skinandscent/static/js/main.8eb4444e.js.map"
   },
   "entrypoints": [
     "static/css/main.b5ffd318.css",
-    "static/js/main.df90608a.js"
+    "static/js/main.8eb4444e.js"
   ]
 }
